@@ -1,0 +1,85 @@
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#signup-section {
+  position: relative;
+  height: 93vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/potchitosrepeat.png");
+  background-repeat: repeat;
+  background-size: 300px 300px;
+  background-position: top left;
+  overflow: hidden;
+}
+
+#signup-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  pointer-events: none;
+}
+/* FORM */
+form {
+  width: 30%;
+  height: 80%;
+  padding: 3rem 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  z-index: 10;
+}
+form h1 {
+  color: #313131;
+  font-size: 2rem;
+  margin-bottom: 0.2rem;
+}
+form p {
+  color: #585858;
+  margin-bottom: 2rem;
+}
+form label {
+  color: #313131;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+form input[type="text"],
+form input[type="password"] {
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+}
+form button[type="submit"] {
+  margin-top: 1.4rem;
+  padding: 0.5rem;
+  background-color: #254bc5;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+.quote-container {
+  width: 100%;
+  display: flex;
+  justify-content: center; /* Centers the content horizontally */
+  margin-top: 8rem;
+}
+
+#register-quote {
+  text-align: center; /* Ensures text within the p is centered */
+}
