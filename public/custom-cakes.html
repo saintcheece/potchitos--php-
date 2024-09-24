@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/custom-cakes.css">
+    <title>product</title> <!-- Use string literal here-->
+    <?php session_start()?>
+</head>
+<body>
+    <div id="header-placeholder"></div>
+        <section id="background">
+            <div class="custom-cake-image-container">
+                <img src="assets/cake-with-transparent-background-high-quality-ultra-hd-free-photo.jpg" alt="">
+            </div>
+            <div class="form-container">
+                <h1>Custom Cake Name</h1>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia nulla labore
+                  et! Praesentium, dolorem similique a natus aut, excepturi porro itaque
+                  voluptatem molestiae possimus omnis velit consequuntur neque iusto
+                  expedita. Debitis eligendi non ipsum dolor facere quam quasi aliquam
+                  corporis qui odit cupiditate atque earum repellat exercitationem
+                  necessitatibus modi eius recusandae, nihil porro excepturi numquam soluta
+                  delectus, voluptatem eveniet. Facere.
+                </p>
+                <p>Allergens: Meow Meow Meow</p>
+                <hr />
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <p>Select Pickup Date</p>
+                        <select name="pickup-date" id="pickup-date">
+                          <option value="2024-09-08">September 8, 2024</option>
+                          <option value="2024-09-09">September 9, 2024</option>
+                          <option value="2024-09-10">September 10, 2024</option>
+                          <option value="2024-09-11">September 11, 2024</option>
+                          <option value="2024-09-12">September 12, 2024</option>
+                          <option value="2024-09-13">September 13, 2024</option>
+                          <option value="2024-09-14">September 14, 2024</option>
+                        </select>
+                      </div>
+                      
+                  <div class="grid-item">
+                    <p>Select Pickup Time</p>
+                    <select name="time" id="time">
+                      <option value="09:00">09:00 AM</option>
+                      <option value="10:00">10:00 AM</option>
+                      <option value="11:00">11:00 AM</option>
+                      <option value="12:00">12:00 PM</option>
+                      <option value="13:00">01:00 PM</option>
+                      <option value="14:00">02:00 PM</option>
+                      <option value="15:00">03:00 PM</option>
+                      <option value="16:00">04:00 PM</option>
+                      <option value="17:00">05:00 PM</option>
+                    </select>
+                  </div>
+                  <div class="grid-item">
+                    <p>Choose Cake Flavor</p>
+                    <select name="flavor" id="flavor">
+                      <option value="chocolate">Chocolate</option>
+                      <option value="vanilla">Vanilla</option>
+                      <option value="strawberry">Strawberry</option>
+                      <option value="red-velvet">Red Velvet</option>
+                    </select>
+                  </div>
+                  <div class="grid-item">
+                    <p>Choose Cake Size</p>
+                    <select name="size" id="size">
+                      <option value="6-inch">6-inch</option>
+                      <option value="8-inch">8-inch</option>
+                      <option value="10-inch">10-inch</option>
+                      <option value="12-inch">12-inch</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="grid-item full-width">
+                    <p>Input Message</p>
+                    <textarea name="message" id="message" placeholder="Enter your message..."></textarea>
+                  </div>
+                  <div class="divider"></div>
+                    <div class="total-and-cart">
+                        <p class="total-price"><b>Total Price: $45.00</b></p>
+                        <button id="add-to-cart">Add to Cart</button>
+                    </div>
+
+              </div>
+              
+        </section>
+    <div id="footer-placeholder"></div>
+</body>
+<script src="JS/header_loader.js"></script>
+<script src="JS/footer_loader.js"></script>
+</html>

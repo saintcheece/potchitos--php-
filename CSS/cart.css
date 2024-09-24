@@ -1,0 +1,154 @@
+#cart-section {
+    padding: 3em;
+    background-color: #f9f9f9;
+    height: 100vh;
+}
+
+.cart-title {
+    color: #2c5aaa;
+    font-size: 2.5rem;
+    margin-bottom: 1.5em;
+    text-align: center;
+}
+
+.cart-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-items {
+    width: 60%;
+    padding: 1em;
+    border-radius: 10px;
+}
+.cart-items th {
+    padding: 0.75em;
+    text-align: center;
+    border-bottom: 1px solid #d1d1d1;
+    color: #585858;
+    font-weight: normal; 
+    font-size: 0.875rem; /
+}
+.shipping-options {
+    margin-bottom: 1rem;
+}
+
+.shipping-options p {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+hr {
+    border: 1px solid #3a549c;
+    margin: 1em 0;
+}
+.shipping-option {
+    margin-bottom: 0.5rem;
+    margin-left: 2em;
+
+}
+
+.shipping-option input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+.shipping-option label {
+    cursor: pointer;
+}
+
+.cart-items table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-items th, .cart-items td {
+    padding: 0.75em;
+    text-align: center;
+    border-bottom: 1px solid #d1d1d1;
+}
+
+
+.item-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.quantity-input {
+    width: 60px;
+    padding: 0.25em;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.remove-item {
+    background-color: #757575;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+
+
+.update-cart {
+    display: block;
+    margin-top: 1em;
+    background-color: #2c5aaa;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.update-cart:hover {
+    background-color: #1e3f82;
+}
+
+.price-breakdown {
+    width: 35%;
+    background-color: rgba(119, 172, 247, 0.218);
+    padding: 1em;
+    border-radius: 10px;
+}
+
+.price-summary, .shipping-options, .total-amount {
+    margin-bottom: 1em;
+}
+
+.summary-label, .total-amount p {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.summary-amount, .total-price {
+    color: #2c5aaa;
+    font-size: 1.5rem;
+}
+
+.shipping-options ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.shipping-options li {
+    margin: 0.5em 0;
+}
+
+.checkout-button {
+    background-color: #2c5aaa;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.checkout-button:hover {
+    background-color: #1e3f82;
+}

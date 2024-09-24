@@ -1,0 +1,39 @@
+<link rel="stylesheet" href="/css/footer.css">
+<footer>
+    <img src="\potchitos\public\assets\images\blue-potchitos-logo.png" alt="">
+    <div class="spacer">
+     <div id="section-1">
+        <h1>Products</h1>
+        <ul>
+         <li>
+            <a href="">Buns</a>
+         </li>
+         <li>
+            <a href="">Cakes</a>
+         </li>
+         <li>
+            <a href="">Cookies</a>
+         </li>
+        </ul>
+     </div>
+     <div id="section-2">
+        <h1>Services</h1>
+        <ul>
+         <li>
+            <a href="">Booths</a>
+         </li>
+         <li>
+           <a href="">Supplies</a> 
+         </li>
+        </ul>
+     </div>
+     <div id="section-3">
+        <h1>Contact</h1> 
+        <p>potchitos-customer@gmail.com</p>
+        <p>09788994534</p>
+    </div>
+   </div>
+</footer>
+<div class="utmost-footer">
+      <p>© 2021 Potchitos. All rights reserved.</p>
+</div>

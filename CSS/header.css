@@ -1,0 +1,68 @@
+*,::before,::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid red; */
+    z-index: 12;
+    position: relative;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    /* border: 1px solid red; */
+}
+header nav ul li{
+    margin-right: 2rem;
+
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #414141;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+header nav .image-container img{
+    width: auto;
+    height: 30px;
+    object-fit: cover;
+}
+header nav li #login-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #254bc5;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition:  0.3s ease;
+    }
+    
+header nav li #login-button:hover {
+    background-color: #2b55c6; 
+}
+
+
+header nav ul li a:hover {
+    color: #254bc5;
+    transition: 0.3s;
+}
+#cart-icon {
+    font-size: 20px; /* Adjust size as needed */
+    color: #2c5aaa; /* Adjust color as needed */
+}
+
+#cart-icon:hover {
+    color: #1e3f82; /* Hover color */
+}

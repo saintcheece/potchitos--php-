@@ -1,0 +1,43 @@
+.left-navigation-bar {
+    width: 15%;
+    background-color: #343a40;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Ensure the sidebar takes full height */
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.left-navigation-bar .logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.left-navigation-bar .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.left-navigation-bar .menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.left-navigation-bar .menu ul li {
+    margin-bottom: 15px;
+}
+
+.left-navigation-bar .menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.left-navigation-bar .menu ul li a:hover {
+    background-color: #495057;
+}

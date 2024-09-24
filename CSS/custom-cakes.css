@@ -1,0 +1,101 @@
+#background{
+    height: 130vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.custom-cake-image-container{
+width: 50%;
+height: 100%;
+background-color: rgb(47, 111, 201);
+display: flex;
+justify-content: center;
+padding: 4em 0;
+}   
+.custom-cake-image-container img{
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 5em;
+
+}
+.form-container {
+    width: 50%;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+}
+  
+  .form-container h1 {
+    color: #2c5aaa;
+    font-size: 2rem;
+    margin-top: 1rem;
+  }
+  
+  .form-container p {
+    color: #585858;
+    margin: 1rem 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 2em; /* Space between items */
+    margin-top: 1.5em;
+  }
+  
+  .grid-item p {
+    margin-bottom: 0.5em;
+  }
+  
+  input[type="date"],
+  select {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    width: 100%;
+  }
+  .full-width {
+    grid-column: 1 / -1; /* Make the textarea cover two columns */
+  }
+  
+  textarea {
+    width: 100%; /* Takes full width of the container */
+    height: 150px; /* Fixed height */
+    padding: 0.5rem;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    resize: none; /* Prevent resizing */
+  }
+  .divider {
+    grid-column: span 2; /* Make the divider span both columns */
+    border-top: 1px solid #d1d1d1;
+    margin: 1.5em 0;
+}
+
+.total-and-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        grid-column: span 2; /* Make sure it spans both columns of the grid */
+}
+
+.total-price {
+    margin: 0; /* Remove default margin to align nicely */
+}
+
+#add-to-cart {
+    background-color: #2c5aaa;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#add-to-cart:hover {
+    background-color: #1e3f82;
+}
